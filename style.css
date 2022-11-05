@@ -1,0 +1,153 @@
+body {
+	color: #5f6c72;
+	background: center top no-repeat #EEE;
+	width: 99%;
+	height: 100%;
+	font-family:Microsoft JhengHei;
+}
+table {
+	font-size:12px;
+	border-collapse:collapse;
+}
+select { 
+	font-size:12px;
+}
+.floatleft
+{
+	float: left;
+	margin: 1;
+	padding: 1;
+	background-color: #e0e0e0;
+}
+.floatleft0
+{
+	float: left;
+	margin: 1;
+	padding: 1;
+	background-color: #ffffff;
+}
+.floatright
+{
+	float: right;
+	margin: 1;
+	padding: 1;
+	background-color: #e0e0e0;
+}
+
+input[type=checkbox]{
+	width:20px;
+	height:20px;
+}
+input[type=text]{
+	width:98%;
+	height:30px;
+	border-radius:5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#bbbbbb;
+	background-color:#eeeeee;
+	padding: 0 20px;
+	spellcheck:false;
+	autocomplete:off;
+}
+select{
+	width:99%;
+	height:32px;
+	border-radius:5px;
+	border-style:solid;
+	border-width:1px;
+	padding:1px;
+	border-color:#cdd2d4;
+	background-color:#eeeeee;
+}
+.n_table{
+	border:1px;
+	padding:6;
+	background-color:#cdd2d4;
+	margin-left:auto;
+	margin-right:auto;
+	width: 90%;
+}
+.n_table th{
+	text-align: center;
+	background-color: #eeeeee;
+	height: 32px;
+}
+.n_table #table_title{
+	text-align: center;
+	background-color: #2d363e;
+	height: 40px;
+}
+.n_table tr{
+	text-align: center;
+	background-color: #ffffff;
+}
+.n_bt,.del_bt,.dis_bt{
+	width:70px;
+}
+.n_l_bt,.upload_file,.del_l_bt{
+	width:120px;
+}
+.n_bt,.n_l_bt,.upload_file{
+	border-radius:5px;
+	height:32px;
+	line-height:32px;
+	border:none;
+	color:#eeeeee;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:14px;
+	margin:4px 2px;
+	cursor:pointer;
+	background-color:#027ab6;
+}
+.n_bt:hover,.n_l_bt:hover,.upload_file:hover{
+	background-color:#0289ca;
+}
+.del_bt,.del_l_bt{
+	border-radius:5px;
+	height:32px;
+	border:2px solid #e9473e;
+	color:#e9473e;
+	padding:3px 20px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:12px;
+	margin:4px 2px;
+	cursor:pointer;
+	background-color:#ffffff;
+}
+.del_bt:hover,.del_l_bt:hover{
+	background-color:#e9473e;
+	color:#ffffff;
+}
+.dis_bt{
+	border-radius:5px;
+	height:32px;
+	border:2px solid #917808;
+	color:#917808;
+	padding:3px 20px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:12px;
+	margin:4px 2px;
+	cursor:pointer;
+	background-color:#ffffff;
+}
+.dis_bt:hover{
+	background-color:#917808;
+	color:#ffffff;
+}
+.ip_textarea{
+	width:98%;
+	border-radius:5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#bbbbbb;
+	background-color:#eeeeee;
+	padding: 0 20px;
+}
+form{display:inline}
