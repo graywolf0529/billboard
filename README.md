@@ -1,9 +1,9 @@
 # billboard
 
 ## 執行專案
-1.　安裝Apache
-2.　安裝PHP(8.1.12)
-3.　安裝Mysql
+1. 安裝Apache
+2. 安裝PHP(8.1.12)
+3. 安裝Mysql
 	1. Mysql的相關設定位於 __api.php__ 內
 	2. 建立資料庫(預設名稱：test)和資料表(預設名稱：billboard)，
 	3. 資料表內欄位如下
@@ -15,7 +15,7 @@
 |title|varchar(20)||
 |update_time|datetime||
 |create_time|datetime||
-4.　將所有檔案放到Apache的htdocs中
+4. 將所有檔案放到Apache的htdocs中
 
 ## 服務架構
 1.　首頁 __index.php__
