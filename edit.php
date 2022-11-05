@@ -97,7 +97,7 @@ if($_POST["sn"]!=0 && is_numeric($_POST["sn"])){
 <td>
 <?php
 if($_POST["sn"]!=0 && is_numeric($_POST["sn"])){
-	echo "<input id='add' type=button value='更新佈告' class='n_l_bt' onclick=\"Update_Billboard('".$_POST["sn"]."')\"/>";
+	echo "<input id='add' type=button value='更新' class='n_l_bt' onclick=\"Update_Billboard('".$_POST["sn"]."')\"/>";
 }
 ?>
 </td>

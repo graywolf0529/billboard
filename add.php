@@ -62,7 +62,7 @@ include("menu_table.php");
 </tr>
 <tr align=center>
 <td><input type=text name='user_name' id='user_name' placeholder='新增人員名稱'></td>
-<td><input id='add' type=submit value="新增佈告" class='n_l_bt' onclick='Add_Billboard()'></td>
+<td><input id='add' type=submit value="新增" class='n_l_bt' onclick='Add_Billboard()'></td>
 </tr></table>
 
 <div id='Respond'></div>
